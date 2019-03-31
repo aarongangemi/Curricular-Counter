@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4526A01322154382007CD351 /* TeacherLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4526A01222154382007CD351 /* TeacherLoginViewController.swift */; };
+		454460E5221545D900BCD45A /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454460E4221545D900BCD45A /* ContactViewController.swift */; };
+		454460ED22154B3100BCD45A /* readCCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454460EC22154B3100BCD45A /* readCCViewController.swift */; };
+		456A39DF2204AC3500A89BA8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 456A39DE2204AC3500A89BA8 /* GoogleService-Info.plist */; };
+		456FAB0B2201F4310030C02D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456FAB0A2201F4310030C02D /* AppDelegate.swift */; };
+		456FAB102201F4310030C02D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456FAB0E2201F4310030C02D /* Main.storyboard */; };
+		456FAB132201F4310030C02D /* CurricularCounter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 456FAB112201F4310030C02D /* CurricularCounter.xcdatamodeld */; };
+		456FAB152201F4320030C02D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456FAB142201F4320030C02D /* Assets.xcassets */; };
+		456FAB182201F4320030C02D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456FAB162201F4320030C02D /* LaunchScreen.storyboard */; };
+		456FAB202201F85E0030C02D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456FAB1F2201F85E0030C02D /* TableViewController.swift */; };
+		456FAB242201FFB00030C02D /* CurricularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456FAB232201FFB00030C02D /* CurricularView.swift */; };
+		456FAB26220202AF0030C02D /* AddCurricular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456FAB25220202AF0030C02D /* AddCurricular.swift */; };
+		456FAB2822020A340030C02D /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456FAB2722020A340030C02D /* NotesViewController.swift */; };
+		456FAB2A22020CA50030C02D /* HoursEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456FAB2922020CA50030C02D /* HoursEditViewController.swift */; };
+		456FAB2C22020EB20030C02D /* logViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456FAB2B22020EB20030C02D /* logViewController.swift */; };
+		45F757EC22021C1B00AF9D20 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F757EB22021C1B00AF9D20 /* loginViewController.swift */; };
+		954806A1AD193A76B63E0223 /* Pods_CurricularCounter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2729EBF667C7EE9666401B /* Pods_CurricularCounter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		450DAD252204ACEE009B648F /* CurricularCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurricularCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4516B85D2202D18500E4196D /* CurricularCounter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CurricularCounter.entitlements; sourceTree = "<group>"; };
+		4526A01222154382007CD351 /* TeacherLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherLoginViewController.swift; sourceTree = "<group>"; };
+		454460E4221545D900BCD45A /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		454460EC22154B3100BCD45A /* readCCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = readCCViewController.swift; sourceTree = "<group>"; };
+		456A39DE2204AC3500A89BA8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		456FAB0A2201F4310030C02D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		456FAB0F2201F4310030C02D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		456FAB122201F4310030C02D /* CurricularCounter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CurricularCounter.xcdatamodel; sourceTree = "<group>"; };
+		456FAB142201F4320030C02D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		456FAB172201F4320030C02D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		456FAB192201F4320030C02D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		456FAB1F2201F85E0030C02D /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		456FAB232201FFB00030C02D /* CurricularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurricularView.swift; sourceTree = "<group>"; };
+		456FAB25220202AF0030C02D /* AddCurricular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCurricular.swift; sourceTree = "<group>"; };
+		456FAB2722020A340030C02D /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		456FAB2922020CA50030C02D /* HoursEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoursEditViewController.swift; sourceTree = "<group>"; };
+		456FAB2B22020EB20030C02D /* logViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logViewController.swift; sourceTree = "<group>"; };
+		45F757EB22021C1B00AF9D20 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		AA3A83984020289A2159B53B /* Pods-CurricularCounter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CurricularCounter.release.xcconfig"; path = "Target Support Files/Pods-CurricularCounter/Pods-CurricularCounter.release.xcconfig"; sourceTree = "<group>"; };
+		D250160833178291CD2F8D03 /* Pods-CurricularCounter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CurricularCounter.debug.xcconfig"; path = "Target Support Files/Pods-CurricularCounter/Pods-CurricularCounter.debug.xcconfig"; sourceTree = "<group>"; };
+		EC2729EBF667C7EE9666401B /* Pods_CurricularCounter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CurricularCounter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		456FAB042201F4310030C02D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954806A1AD193A76B63E0223 /* Pods_CurricularCounter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C5EA77A8AA508269C2C2C48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC2729EBF667C7EE9666401B /* Pods_CurricularCounter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		456FAAFE2201F4310030C02D = {
+			isa = PBXGroup;
+			children = (
+				456FAB092201F4310030C02D /* CurricularCounter */,
+				E622730180306B7356651CF0 /* Pods */,
+				0C5EA77A8AA508269C2C2C48 /* Frameworks */,
+				450DAD252204ACEE009B648F /* CurricularCounter.app */,
+			);
+			sourceTree = "<group>";
+		};
+		456FAB092201F4310030C02D /* CurricularCounter */ = {
+			isa = PBXGroup;
+			children = (
+				4516B85D2202D18500E4196D /* CurricularCounter.entitlements */,
+				456FAB0A2201F4310030C02D /* AppDelegate.swift */,
+				456FAB0E2201F4310030C02D /* Main.storyboard */,
+				456FAB142201F4320030C02D /* Assets.xcassets */,
+				456FAB162201F4320030C02D /* LaunchScreen.storyboard */,
+				456FAB192201F4320030C02D /* Info.plist */,
+				456FAB112201F4310030C02D /* CurricularCounter.xcdatamodeld */,
+				456FAB1F2201F85E0030C02D /* TableViewController.swift */,
+				456FAB232201FFB00030C02D /* CurricularView.swift */,
+				456A39DE2204AC3500A89BA8 /* GoogleService-Info.plist */,
+				456FAB25220202AF0030C02D /* AddCurricular.swift */,
+				456FAB2722020A340030C02D /* NotesViewController.swift */,
+				456FAB2922020CA50030C02D /* HoursEditViewController.swift */,
+				456FAB2B22020EB20030C02D /* logViewController.swift */,
+				45F757EB22021C1B00AF9D20 /* loginViewController.swift */,
+				4526A01222154382007CD351 /* TeacherLoginViewController.swift */,
+				454460E4221545D900BCD45A /* ContactViewController.swift */,
+				454460EC22154B3100BCD45A /* readCCViewController.swift */,
+			);
+			path = CurricularCounter;
+			sourceTree = "<group>";
+		};
+		E622730180306B7356651CF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D250160833178291CD2F8D03 /* Pods-CurricularCounter.debug.xcconfig */,
+				AA3A83984020289A2159B53B /* Pods-CurricularCounter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		456FAB062201F4310030C02D /* CurricularCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 456FAB1C2201F4320030C02D /* Build configuration list for PBXNativeTarget "CurricularCounter" */;
+			buildPhases = (
+				798B48FEF208DEEA869AE759 /* [CP] Check Pods Manifest.lock */,
+				456FAB032201F4310030C02D /* Sources */,
+				456FAB042201F4310030C02D /* Frameworks */,
+				456FAB052201F4310030C02D /* Resources */,
+				F3CB9C077C145CB3684D8213 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CurricularCounter;
+			productName = CurricularCounter;
+			productReference = 450DAD252204ACEE009B648F /* CurricularCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		456FAAFF2201F4310030C02D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Aaron Gangemi";
+				TargetAttributes = {
+					456FAB062201F4310030C02D = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 456FAB022201F4310030C02D /* Build configuration list for PBXProject "CurricularCounter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 456FAAFE2201F4310030C02D;
+			productRefGroup = 456FAAFE2201F4310030C02D;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				456FAB062201F4310030C02D /* CurricularCounter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		456FAB052201F4310030C02D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456FAB182201F4320030C02D /* LaunchScreen.storyboard in Resources */,
+				456FAB152201F4320030C02D /* Assets.xcassets in Resources */,
+				456A39DF2204AC3500A89BA8 /* GoogleService-Info.plist in Resources */,
+				456FAB102201F4310030C02D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		798B48FEF208DEEA869AE759 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CurricularCounter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3CB9C077C145CB3684D8213 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CurricularCounter/Pods-CurricularCounter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CurricularCounter/Pods-CurricularCounter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		456FAB032201F4310030C02D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456FAB132201F4310030C02D /* CurricularCounter.xcdatamodeld in Sources */,
+				456FAB242201FFB00030C02D /* CurricularView.swift in Sources */,
+				456FAB2C22020EB20030C02D /* logViewController.swift in Sources */,
+				456FAB2A22020CA50030C02D /* HoursEditViewController.swift in Sources */,
+				454460E5221545D900BCD45A /* ContactViewController.swift in Sources */,
+				456FAB2822020A340030C02D /* NotesViewController.swift in Sources */,
+				456FAB202201F85E0030C02D /* TableViewController.swift in Sources */,
+				4526A01322154382007CD351 /* TeacherLoginViewController.swift in Sources */,
+				456FAB26220202AF0030C02D /* AddCurricular.swift in Sources */,
+				456FAB0B2201F4310030C02D /* AppDelegate.swift in Sources */,
+				454460ED22154B3100BCD45A /* readCCViewController.swift in Sources */,
+				45F757EC22021C1B00AF9D20 /* loginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		456FAB0E2201F4310030C02D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				456FAB0F2201F4310030C02D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		456FAB162201F4320030C02D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				456FAB172201F4320030C02D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		456FAB1A2201F4320030C02D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		456FAB1B2201F4320030C02D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		456FAB1D2201F4320030C02D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D250160833178291CD2F8D03 /* Pods-CurricularCounter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CurricularCounter/CurricularCounter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NXH3AHK2LB;
+				INFOPLIST_FILE = CurricularCounter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CurricularCounterX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		456FAB1E2201F4320030C02D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA3A83984020289A2159B53B /* Pods-CurricularCounter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CurricularCounter/CurricularCounter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NXH3AHK2LB;
+				INFOPLIST_FILE = CurricularCounter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CurricularCounterX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		456FAB022201F4310030C02D /* Build configuration list for PBXProject "CurricularCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456FAB1A2201F4320030C02D /* Debug */,
+				456FAB1B2201F4320030C02D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		456FAB1C2201F4320030C02D /* Build configuration list for PBXNativeTarget "CurricularCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456FAB1D2201F4320030C02D /* Debug */,
+				456FAB1E2201F4320030C02D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		456FAB112201F4310030C02D /* CurricularCounter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				456FAB122201F4310030C02D /* CurricularCounter.xcdatamodel */,
+			);
+			currentVersion = 456FAB122201F4310030C02D /* CurricularCounter.xcdatamodel */;
+			path = CurricularCounter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 456FAAFF2201F4310030C02D /* Project object */;
+}
